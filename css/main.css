@@ -1,0 +1,179 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+
+.clearfix{ overflow: auto; }
+
+.wrapper{
+	margin: 0 auto;
+	width: 1500px;
+}
+
+/*------------login----------*/
+
+.login{
+	width: 1500px;
+	background-color: maroon;
+}
+
+.links{
+	float: right;
+}
+.login ul{
+	list-style: none;
+	margin: 15px; 
+}
+.login ul li{
+	display: inline-block;
+	padding: 0 10px;
+	border-right: 1px solid;
+	border-color: white;
+}
+.login ul li:last-child{
+	border: 0;
+}
+.login ul li a{
+	font-size: 16px;
+	color: white;
+}
+
+/*-----------imge----------*/
+.image{
+	width: 1500px;
+}
+div.image-group img{
+	width: 1500px;
+	height: 500px;
+}
+
+/*---------nav----------*/
+nav{
+	background: linear-gradient(#0d0d0d, #404040, #0d0d0d);
+	text-align: center;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav ul li{
+	display: inline;
+}
+
+nav ul li a{
+	color: #fff;
+	text-transform: uppercase;
+	margin: 10px 90px 10px 90px;
+	display: inline-block;
+}
+nav ul li a:hover{
+	color: red;
+}
+
+/*---------hall-book--------*/
+
+.hall-book{
+	margin-top: 4px;
+	background-color: #444;
+	padding-bottom: 20px;
+}
+.hall-book h1{
+	text-align: center;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-family: normal;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+div.hall-book-group{
+	float: left;
+	width: 720px;
+	margin-left: 20px;
+	background-color: lightgray;
+}
+
+div.hall-book-group img{
+	width: 720px;
+}
+
+div.hall-book-group a,div.hall-book-group p, div.hall-book-group h4{
+	font-size: 18px;
+	padding: 10px 20px 10px 20px;
+}
+div.hall-book-group a{
+	color: red;
+	float: right;
+}
+
+/*-------------ground-book--------------*/
+
+.ground-book{
+	background-color: #444;
+	padding-bottom: 20px;
+}
+.ground-book h1{
+	text-align: center;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-family: normal;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+div.ground-book-group{
+	float: left;
+	width: 473.33px;
+	margin-left: 20px;
+	background-color: lightgray;
+}
+
+div.ground-book-group img{
+	width: 473.33px;
+}
+
+div.ground-book-group a,div.ground-book-group p, div.ground-book-group h4{
+	font-size: 18px;
+	padding: 10px 20px 10px 20px;
+}
+div.ground-book-group a{
+	color: red;
+	float: right;
+}
+
+/*-----------footer------------*/
+
+footer{
+	width: 1500px;
+	background-color: maroon;
+	float: left;
+}
+.footer-group{
+	float: left;
+	width: 750px;
+}
+
+div.footer-group div.social{
+
+}
+
+div.footer-group div.social ul{
+	list-style: none;
+	padding: 50px;
+}
+
+div.footer-group div.social ul li a{
+	color: white;
+}
+
+div.footer-group form{
+	padding: 50px;
+}
+
+div.footer-group form h2{
+	margin-bottom: 20px;
+}

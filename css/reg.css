@@ -1,0 +1,58 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.clerafix{
+	overflow: auto;
+}
+
+.wrapper1{
+	margin: 0 auto;
+	width: 1500px;
+	background-color: lightblue;
+}
+form{
+	width: 500px;
+	margin-left: 500px;
+}
+form h1{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.form-group input{
+	width: 490px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	border: none;
+}
+
+.form-group label{
+	font-size: 18px;
+}
+
+.button input{
+	border: none;
+	padding: 5px;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: red;
+	margin-bottom: 10px;
+}
+
+footer.clerafix{
+	width: 1500px;
+	background-color: maroon;
+}
+.footer-group{
+	padding: 20px;
+}
+
+.footer-group h4{
+	text-align: center;
+	color: yellow;
+	font-size: 20px;
+}
